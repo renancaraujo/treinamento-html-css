@@ -1,3 +1,35 @@
+@import url("reset.css");
+
 body {
-	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', Helvetica, Arial, Ubuntu, sans-serif;
 }
+header{
+	background-color: #fff;
+	height: 83px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+.logo-link{
+	padding: 10px;
+}
+nav{
+	padding: 10px;
+	display: flex;
+}
+nav > a{
+	margin: 0 20px;
+	color: #053368;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+#home{
+	background-color: #333;
+	height: 3000px;
+}
+
+
