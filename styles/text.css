@@ -1,0 +1,45 @@
+h1{
+	font-weight: 800;
+	font-size: 3.75em;
+}
+
+p{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 30px 0;
+	line-height: 1.4;
+	letter-spacing: 0.5px;
+}
+
+blockquote{
+	text-align: center;
+	font-weight: 900;
+	font-size: 3em;
+}
+blockquote:after{
+	content: attr(data-author);
+	display: block;
+	font-size: 0.4em;
+	font-weight: 100;
+	font-style: italic;
+	line-height: 2;
+}
+
+h2{
+	font-weight: 800;
+	margin-top: 2em;
+	font-size: 2em;
+}
+
+h3{
+	font-weight: 800;
+	margin-top: 2em;
+	font-size: 1.5em;
+}
+
+li {
+	font-size: 1.5em;
+	font-weight: 300;
+	list-style-position: inside;
+	line-height: 1.2;
+}

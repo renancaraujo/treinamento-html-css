@@ -1,7 +1,10 @@
 @import url("reset.css");
+@import url('text.css');
+
 
 body {
 	font-family: 'Roboto', Helvetica, Arial, Ubuntu, sans-serif;
+	color: #333;
 }
 header{
 	background-color: #fff;
@@ -36,11 +39,38 @@ nav > a{
 	text-transform: uppercase;
 }
 
-
-
 #home{
-	background-color: #333;
-	height: 3000px;
+	
 }
 
+.hero{
+	height: 100vh;
+	background-color: #333;
+	background-image: url("/assets/hero.jpg");
+	background-position:bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
 
+	display: flex;
+	align-items: flex-end;
+
+	margin-bottom: 40px;
+}
+/*#home > div:not(.hero){
+	height: 400px;
+}*/
+
+#home .centralize{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px 40px 20px;
+}
+.underline{
+	text-decoration: underline;
+}
+.ignore{
+	text-decoration: line-through;
+}
