@@ -16,6 +16,7 @@ header{
 	left: 0;
 	right: 0;
 	flex-wrap: wrap;
+	z-index: 100;
 }
 
 @media (max-width: 560px){
@@ -62,7 +63,7 @@ nav > a{
 	height: 400px;
 }*/
 
-#home .centralize{
+ .centralize{
 	width: 100%;
 	max-width: 900px;
 	margin: 0 auto;
@@ -73,4 +74,36 @@ nav > a{
 }
 .ignore{
 	text-decoration: line-through;
+}
+
+
+#catalog{
+	background-color: #111111;
+	color: #fff;
+	padding: 40px 0 0;
+}
+.travel-grid{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 0;
+}
+
+.travel-grid .travel-item{
+	background-color: #000;
+	margin-right: 18px;
+	width:196px;
+	height: 273px;
+	max-width: 300px;
+	position: relative;
+}
+
+.travel-grid .travel-item .title{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 20px;
+	display: flex;
+	align-items: flex-end;
 }
