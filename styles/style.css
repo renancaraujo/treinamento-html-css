@@ -12,7 +12,16 @@ header{
 	position: fixed;
 	left: 0;
 	right: 0;
+	flex-wrap: wrap;
 }
+
+@media (max-width: 560px){
+	header{
+		justify-content: center;
+		height: auto;
+		padding-bottom: 20px;
+	}
+} 
 .logo-link{
 	padding: 10px;
 }
@@ -26,6 +35,8 @@ nav > a{
 	font-weight: 800;
 	text-transform: uppercase;
 }
+
+
 
 #home{
 	background-color: #333;
