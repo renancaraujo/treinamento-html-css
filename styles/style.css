@@ -95,6 +95,9 @@ nav > a{
 	height: 273px;
 	max-width: 300px;
 	position: relative;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow:  2px 4px 2px #000;
 }
 
 .travel-grid .travel-item .title{
@@ -106,4 +109,10 @@ nav > a{
 	padding: 20px;
 	display: flex;
 	align-items: flex-end;
+}
+.travel-grid .travel-item  img{
+	transition: 2s;
+}
+.travel-grid .travel-item:hover img{
+	transform: scale(1.1);
 }
