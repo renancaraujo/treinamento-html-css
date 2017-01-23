@@ -19,13 +19,6 @@ header{
 	z-index: 100;
 }
 
-@media (max-width: 560px){
-	header{
-		justify-content: center;
-		height: auto;
-		padding-bottom: 20px;
-	}
-} 
 .logo-link{
 	padding: 10px;
 }
@@ -85,12 +78,14 @@ nav > a{
 .travel-grid{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	margin: 20px 0;
 }
 
 .travel-grid .travel-item{
 	background-color: #000;
 	margin-right: 18px;
+	margin-bottom: 20px;
 	width:196px;
 	height: 273px;
 	max-width: 300px;
@@ -152,3 +147,18 @@ nav > a{
 	color: #fff;
 	cursor: pointer;
 }
+
+
+@media (max-width: 560px){
+	header{
+		justify-content: center;
+		height: auto;
+		padding-bottom: 20px;
+	}
+
+	#contact form input{
+		width: 100%;
+		max-width: 400px;
+		min-width: initial;
+	}
+} 
